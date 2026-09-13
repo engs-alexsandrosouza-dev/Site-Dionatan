@@ -9,6 +9,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 #titulo{
@@ -185,3 +186,90 @@ article:hover {
     transition: background-color 0.3s ease;
 
  }
+
+#perfil{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+#perfil:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+
+.historico{
+    width: 100%;
+    max-width: 100%;
+    min-height: 200px;
+    background-color: rgb(180, 223, 255);
+    display: flex;
+    flex-direction: row;
+    margin: 40px auto;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+    flex-wrap: nowrap;
+}
+
+#ultimas-leituras{
+    font-style: italic;
+    color: rgb(14, 59, 82);
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.moldura-historico{
+    width: 150px;
+    height: 270px;
+    background-color: rgb(218, 237, 255);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.moldura-historico:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.titulo-historico{
+    text-align: center;
+    font-size: 15px;
+    color: rgb(0, 12, 20);
+    margin: 5px 0;
+}
+
+.img-historico{
+    width: 90%;
+    height: 70%;
+    object-fit: cover;
+    margin: 5px auto;
+    border-radius: 5px;
+}
+
+body{
+    background-color:rgb(219, 239, 255)
+}
+
+.ultima-leitura{
+    text-align: center;
+    font-size: 12px;
+    color: rgb(14, 59, 82);
+    font-family: Arial, sans-serif;
+}
+
+.ultima-avaliacao{
+    text-align: center;
+    font-size: 11px;
+    color: rgb(14, 59, 82);
+    font-family: Arial, sans-serif;
+}
+
