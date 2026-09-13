@@ -3,7 +3,7 @@
 }
 
 header{
-    background-color: rgb(134, 204, 245);
+    background-color: rgb(190, 224, 255);
     color: rgb(14, 59, 82);
     padding: 20px;
     display: flex;
@@ -22,13 +22,13 @@ nav{
 }
 
 a{
-    color: rgb(0, 61, 97);
+    color: rgb(27, 67, 92);
     padding: 0 10px;
     text-decoration: none;
 }
 
 a:hover{
-    background-color: rgb(76, 127, 221);
+    background-color: rgb(164, 185, 224);
 }
 
 section{
@@ -90,7 +90,7 @@ article{
     color: rgb(56, 101, 131);
     padding: 7px;
     width: 80%;
-    border: 2px solid rgb(18, 64, 90);
+    border: 2px solid rgb(247, 250, 252);
     margin: auto auto 8px;
     text-align: center;
     border: none;
@@ -169,6 +169,19 @@ article:hover {
     margin: 10px 0;
 }
 
+
+
 #proximos-livros{
     text-align: center;
 }
+ .next_pg{
+    display: inline-block;
+    margin: 20px 6px;
+    padding: 10px 20px;
+    background-color: rgb(80, 155, 216);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+
+ }
